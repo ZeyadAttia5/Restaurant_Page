@@ -5,7 +5,7 @@ const load_third_page = () => {
     txt.textContent = "This is the third page maaan relaax 😀"
 
     const img = document.createElement('img');
-    img.src = "../src/third.jpg"
+    img.src = "./third.jpg"
     img.width = 800;
 
     const header = document.createElement('h1')

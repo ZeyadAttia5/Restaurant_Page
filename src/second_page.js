@@ -6,13 +6,13 @@ const load_second_page = () => {
     txt.textContent = "This is the second page maaan relaax 😀" 
 
     const img = document.createElement('img');
-    img.src = "../src/second.jpg"
+    img.src = "./second.jpg"
     img.width = 800;
 
     const header = document.createElement('h1')
     header.textContent = 'Akoozab'
     header.style.marginTop = '5px';
-    
+
     div.appendChild(header);
     div.appendChild(txt);
     div.appendChild(img);

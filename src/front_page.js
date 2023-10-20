@@ -10,7 +10,7 @@ const load_front_page = () => {
     header.style.marginTop = '5px';
     
     const table_foto = document.createElement('img')
-    table_foto.src = '../background.png'
+    table_foto.src = './background.png'
     table_foto.width = 800
 
     div.appendChild(header);
